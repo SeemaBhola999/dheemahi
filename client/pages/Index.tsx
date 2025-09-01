@@ -134,15 +134,15 @@ export default function Index() {
       <section
         id="home"
         className="pt-16 min-h-screen flex items-center bg-gradient-to-br from-white via-blue-50 to-yellow-50 relative"
-        style={{
-          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F636fa088b4f34ad095e72eab5c5a04c1%2F32da42d943d24d95b5bba0ea6adc4150)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed'
-        }}
+      // style={{
+      //   backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F636fa088b4f34ad095e72eab5c5a04c1%2F32da42d943d24d95b5bba0ea6adc4150)',
+      //   backgroundSize: 'cover',
+      //   backgroundPosition: 'center',
+      //   backgroundAttachment: 'fixed'
+      // }}
       >
 
-        <div className="absolute inset-0 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 backdrop-blur-sm" style={{ backgroundColor: "#776e6e6b" }}></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
             <motion.div
